@@ -1,0 +1,68 @@
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 25px;
+    background-color: lightgreen;
+    border:20px solid rgb(45, 155, 45);
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+    border: none;
+}
+
+#upkey{
+    background-color: rgba(255, 255, 0, 0.952);
+}
+
+#upkey:hover{
+    background-color: #323330;
+    color: darkcyan;
+    transition: 0.5s ease-in-out;
+}
+
+.button {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 10px;
+    cursor: pointer;
+    background-color: rgb(45, 218, 45);
+}
+
+#xero {
+    background-color:rgb(247, 184, 10);
+    color: black;
+}
+
+#xero:hover{
+    background-color: #323330;
+    color: darkcyan;
+    transition: 0.5s ease-in-out;
+}
+
+
+.button:hover {
+    background-color: #323330;
+    color: darkcyan;
+    transition: 0.5s ease-in-out;
+}
